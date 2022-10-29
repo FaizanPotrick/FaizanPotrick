@@ -44,3 +44,9 @@
 <img src="https://user-images.githubusercontent.com/89718255/198185804-abaf36ba-a2e1-4847-8a14-0dd7bcd055cb.png" alt="nodejs" width="50" height="50"/>
 <img src="https://user-images.githubusercontent.com/89718255/198183228-d5ba9eea-9517-4873-a5ff-36ded3046842.png" alt="reactjs" width="50" height="50"/>
 </div>
+
+<h3 align="center">Badges</h3>
+<br/>
+<div align="center">
+<img src="https://holopin.me/faizanpotrick" alt="badges" width="100%" />
+</div>
