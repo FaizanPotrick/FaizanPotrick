@@ -5,6 +5,7 @@ export default defineStore({
   state: () => ({
     balls: [],
     balls_color: ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"],
+    isLoading: true,
   }),
   actions: {
     click_effect(e) {

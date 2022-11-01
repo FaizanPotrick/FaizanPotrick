@@ -2,10 +2,9 @@
 import { onMounted } from "vue";
 import AppStore from "@/stores/App.js";
 import Loading from "@/components/Loading.vue";
-import LoadingStore from "@/stores/Loading.js";
 import axios from "axios";
 
-const { append_balls, display_balls, click_effect } = AppStore();
+const { click_effect, append_balls, display_balls } = AppStore();
 
 onMounted(async () => {
   append_balls();
@@ -21,7 +20,7 @@ onMounted(async () => {
   >
     <div id="balls" class="fixed h-screen w-full overflow-hidden -z-10"></div>
     <RouterView />
-    <Loading v-if="LoadingStore().isLoading" />
+    <Loading v-if="AppStore().isLoading" />
   </div>
 </template>
 <style>

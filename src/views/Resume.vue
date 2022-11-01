@@ -1,10 +1,10 @@
 <script setup>
 import { onMounted } from "vue";
-import LoadingStore from "@/stores/Loading.js";
+import AppStore from "@/stores/App.js";
 import Resume from "@/assets/resume.pdf";
 
 onMounted(() => {
-  LoadingStore().isLoading = false;
+  AppStore().isLoading = false;
 });
 </script>
 <template>

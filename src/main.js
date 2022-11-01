@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import { createPinia } from "pinia";
 import { createRouter, createWebHistory } from "vue-router";
 import App from "./App.vue";
-import LoadingStore from "@/stores/Loading.js";
+import AppStore from "@/stores/App.js";
 
 const app = createApp(App);
 
@@ -15,7 +15,7 @@ app.use(
         path: "/",
         name: "home",
         beforeEnter: (to, from, next) => {
-          LoadingStore().isLoading = true;
+          AppStore().isLoading = true;
           next();
         },
         component: () => import("@/views/Home.vue"),
@@ -24,7 +24,7 @@ app.use(
         path: "/resume",
         name: "resume",
         beforeEnter: (to, from, next) => {
-          LoadingStore().isLoading = true;
+          AppStore().isLoading = true;
           next();
         },
         component: () => import("@/views/Resume.vue"),
@@ -33,7 +33,7 @@ app.use(
         path: "/chatbot",
         name: "chatbot",
         beforeEnter: (to, from, next) => {
-          LoadingStore().isLoading = true;
+          AppStore().isLoading = true;
           next();
         },
         component: () => import("@/views/ChatBot.vue"),
@@ -42,7 +42,7 @@ app.use(
         path: "/:catchAll(.*)",
         name: "page not found",
         beforeEnter: (to, from, next) => {
-          LoadingStore().isLoading = true;
+          AppStore().isLoading = true;
           next();
         },
         component: () => import("@/views/PageNotFound.vue"),
