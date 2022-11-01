@@ -24,8 +24,9 @@ export default defineStore({
     },
     append_balls() {
       const Balls = document.getElementById("balls");
-
-      for (let i = 0; i < 100; i++) {
+      const width = document.body.clientWidth;
+      const no_balls = 700 > width ? 30 : 1000 > width ? 40 : 50;
+      for (let i = 0; i < no_balls; i++) {
         let ball = document.createElement("div");
         ball.classList.add("ball");
         ball.style.position = "absolute";
@@ -36,7 +37,7 @@ export default defineStore({
         ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
         ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
         ball.style.transform = `scale(${Math.random()})`;
-        ball.style.opacity = 0.5;
+        ball.style.opacity = 0.3;
         ball.style.width = `${Math.random()}rem`;
         ball.style.height = ball.style.width;
         this.balls.push(ball);
