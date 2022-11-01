@@ -77,3 +77,8 @@ const Input_Chat = async () => {
     </div>
   </div>
 </template>
+<style>
+#chat::-webkit-scrollbar {
+  display: none;
+}
+</style>
