@@ -12,12 +12,12 @@ const { skills } = SkillsStore();
         v-for="skill in skills"
         :key="skill"
       >
-        <div class="text-2xl sm:text-3xl font-semibold my-2">
+        <div class="text-2xl sm:text-3xl font-semibold mt-2 mb-5">
           {{ skill.title }}
         </div>
         <div class="flex flex-wrap items-center justify-center">
           <div
-            class="flex flex-col justify-center items-center m-4"
+            class="flex flex-col justify-center items-center m-3"
             v-for="technology in skill.technologies"
             :key="technology"
           >

@@ -7,7 +7,7 @@ export default defineStore({
       {
         title: "Smart India Hackathon 2022",
         description:
-          "Winners in our problem statement in the National Level Hackathon conducted by Gov. of India.",
+          "Winners of our problem statement in the National Level Hackathon.",
       },
       {
         title: "Tech for good",
@@ -16,12 +16,12 @@ export default defineStore({
       {
         title: "Pika Web",
         description:
-          "First Postion in Web Development in the Technitude conducted by GITS.",
+          "First Postion in Web Development in the Technitude'22.",
       },
       {
-        title: "Ideobation",
+        title: "Ideobition",
         description:
-          "Second Position in presenting an idea of the project in the Technitude conducted by CSI.",
+          "Second Position in picthing idea in the Technitude'22.",
       },
       {
         title: "Coding Premier League",
@@ -30,7 +30,7 @@ export default defineStore({
       {
         title: "Hacktoberfest 2021-22",
         description:
-          "Contributed to open-source and maintained repositories in the month of October.",
+          "Contributed to open-source and maintained repositories.",
       },
     ],
   }),

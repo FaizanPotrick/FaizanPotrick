@@ -65,17 +65,17 @@ const ScrollToNext = () => {
       <div
         class="max-w-6xl lg:text-lg md:text-sm text-xs mt-5 p-3 text-white/80"
       >
-        I am doing my bachelor's in engineering from Datta Meghe College of
-        Engineering and currently, I have pursuing my third year and my
-        specialization in computer science and engineering. I have completed my
-        1st Internship as a front-end web developer at let's grow more virtual
-        internship program in my 1st year. I have a deep interest in
-        development. I am a self-taught programmer. I have made more than 10
-        projects, which are full-stack projects using MERN, React JS, Next JS,
-        Node JS, Express JS, and javascript. I am also a part of the computer
-        society of India as a technical team member and also in GDSC which
-        Google Developer Student Club as a Web team member. I wish to learn new
-        technologies and ideas to creates a positive impact on World.
+        I'm an undergraduate pursuing my bachelor's in Datta Meghe College of
+        Engineering. Currently I'm in third year with the specialization in
+        Computer Science. I have successfully completed my 1st Internship as a
+        front-end web developer at let's grow more virtual internship program in
+        my 1st year. I have a deep interest in development. I am a self-taught
+        programmer. I have made more than 10 projects, which are full-stack
+        projects using MERN, React JS, Next JS, Node JS, Express JS, and
+        javascript. I am a member of technical team of computer society of india
+        students' chapter and also a member of web team of google
+        development students club. I wish to learn new technologies and ideas to
+        creates a positive impact on World.
       </div>
       <div class="flex justify-center items-center mt-5">
         <a

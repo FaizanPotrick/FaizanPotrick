@@ -7,7 +7,7 @@ export default defineStore({
   id: "landing",
   state: () => ({
     typed_options: {
-      strings: ["Hi 👋, I'm a", "Web Developer", "&", "Programmer"],
+      strings: ["Hi 👋, I'm a", "Full Stack Web Developer", "&", "Programmer"],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
