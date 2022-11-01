@@ -6,12 +6,6 @@ import axios from "axios";
 const input = ref("");
 
 onMounted(() => {
-  const documentHeight = () => {
-    const doc = document.documentElement;
-    doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
-  };
-  window.addEventListener("resize", documentHeight);
-  documentHeight();
   AppStore().isLoading = false;
 });
 
@@ -85,9 +79,6 @@ const Input_Chat = async () => {
   </div>
 </template>
 <style>
-:root {
-  --doc-height: 100%;
-}
 #chat::-webkit-scrollbar {
   display: none;
 }

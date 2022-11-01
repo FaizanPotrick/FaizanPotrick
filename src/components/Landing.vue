@@ -21,7 +21,8 @@ const ScrollToNext = () => {
 </script>
 <template>
   <div
-    class="relative flex flex-col items-center p-5 text-center h-screen min-w-full w-screen snap-start"
+    class="relative flex flex-col items-center p-5 text-center w-screen snap-start"
+    style="height: var(--doc-height)"
   >
     <nav class="flex justify-around items-center w-full">
       <div
@@ -95,7 +96,7 @@ const ScrollToNext = () => {
     </div>
     <button
       @click="ScrollToNext"
-      class="border-2 absolute bottom-8 rounded-full border-[#8a2ce2] text-[#8a2ce2] duration-500 hover:scale-110"
+      class="border-2 absolute bottom-4 sm:bottom-8 rounded-full border-[#8a2ce2] text-[#8a2ce2] duration-500 hover:scale-110"
     >
       <div
         class="arrow text-2xl sm:text-3xl animate-[mouse_1.8s_infinite_ease-in-out_reverse] font-extrabold px-2 sm:px-2.5 py-1.5 sm:py-2"

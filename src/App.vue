@@ -6,12 +6,20 @@ import axios from "axios";
 
 const { click_effect, append_balls, display_balls } = AppStore();
 
+const WebHeight = () => {
+  const doc = document.documentElement;
+  doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
+};
+
 onMounted(async () => {
+  WebHeight();
   append_balls();
   display_balls();
-  document.addEventListener("click", click_effect);
   await axios.get(`https://frozen-savannah-13770.herokuapp.com/hi`);
 });
+
+window.addEventListener("resize", WebHeight);
+document.addEventListener("click", click_effect);
 </script>
 <template>
   <div
@@ -34,6 +42,9 @@ html {
 body {
   background-color: #121212;
   color: white;
+}
+:root {
+  --doc-height: 100%;
 }
 #scroll_container::-webkit-scrollbar {
   display: none;
