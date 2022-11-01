@@ -39,8 +39,13 @@ const Input_Chat = async () => {
 </script>
 <template>
   <div
-    class="flex justify-center items-center px-5 w-full bg-[#121212]"
-    style="height: 100vh"
+    class="flex justify-center items-center px-5 h-full w-full bg-[#121212]"
+    style="
+      min-height: 100vh;
+      min-height: -moz-available;
+      min-height: -webkit-fill-available;
+      min-height: fill-available;
+    "
   >
     <div
       class="flex flex-col justify-between items-center h-full w-full gap-6 px-2.5 py-5 bg-white/20 max-w-7xl shadow shadow-white/20"
