@@ -6,6 +6,12 @@ import axios from "axios";
 const input = ref("");
 
 onMounted(() => {
+  const documentHeight = () => {
+    const doc = document.documentElement;
+    doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
+  };
+  window.addEventListener("resize", documentHeight);
+  documentHeight();
   AppStore().isLoading = false;
 });
 
@@ -40,12 +46,7 @@ const Input_Chat = async () => {
 <template>
   <div
     class="flex justify-center items-center px-5 h-full w-full bg-[#121212]"
-    style="
-      min-height: 100vh;
-      min-height: -moz-available;
-      min-height: -webkit-fill-available;
-      min-height: fill-available;
-    "
+    style="max-height: var(--doc-height)"
   >
     <div
       class="flex flex-col justify-between items-center h-full w-full gap-6 px-2.5 py-5 bg-white/20 max-w-7xl shadow shadow-white/20"
@@ -84,6 +85,9 @@ const Input_Chat = async () => {
   </div>
 </template>
 <style>
+:root {
+  --doc-height: 100%;
+}
 #chat::-webkit-scrollbar {
   display: none;
 }
