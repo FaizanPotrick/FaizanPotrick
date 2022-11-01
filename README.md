@@ -1,10 +1,8 @@
 <h1 align="center">Hi 👋, I'm Faizan</h1>
 <h3 align="center">Full Stack Web Developer</h3>
 
-<!-- - 🔭 Portfolio : <a href="https://yashnerkar.github.io">yashnerkar.github.io</a> -->
-
-
 - 🌱 I’m currently learning Machine Learning
+- 🔭 Portfolio : <a href="https://faizanpotrick.netlify.app/">Faizan Potrick</a>
 - 👯 I’m looking to collaborate on Web Dev Projects
 - 📫 How to reach me out **faizan.potrick02@gmail.com**
 - ⚡ Fun fact I am an Wolf!
