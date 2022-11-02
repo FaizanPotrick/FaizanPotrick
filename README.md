@@ -10,8 +10,8 @@
 <br/>
 
 <div align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=FaizanPotrick&show_icons=true&locale=en&layout=compact" alt="FaizanPotrick"/>
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=FaizanPotrick&show_icons=true&locale=en" alt="FaizanPotrick" />
+<img align="center" margin="2px" src="https://github-readme-stats.vercel.app/api/top-langs?username=FaizanPotrick&show_icons=true&locale=en&layout=compact" alt="FaizanPotrick"/>
+<img align="center" margin="2px" src="https://github-readme-stats.vercel.app/api?username=FaizanPotrick&show_icons=true&locale=en" alt="FaizanPotrick" />
 </div>
 
 <h3 align="center">Connect with me</h3>
