@@ -2,7 +2,7 @@ import { defineStore } from "pinia";
 import ApnaShop from "@/assets/projects/apnashop.webp";
 import DMCECommitteePortal from "@/assets/projects/dmcecommitteeportal.webp";
 import ResumeB from "@/assets/projects/resumeb.webp";
-import MyTodos from "@/assets/projects/mytodos.webp";
+import HandyNotes from "@/assets/projects/handynotes.webp";
 import React from "@/assets/technologies/react.webp";
 import Next from "@/assets/technologies/next.webp";
 import Vue from "@/assets/technologies/vue.webp";
@@ -55,15 +55,15 @@ export default defineStore({
         website: "https://resumeb.netlify.app/",
       },
       {
-        title: "My Todos",
-        description: "Todo List App",
-        src: MyTodos,
+        title: "Handy Notes",
+        description: "Handy Notes App",
+        src: HandyNotes,
         technology: [
           { alt: "ReactJS", src: React },
           { alt: "Bootstrap", src: Bootstrap },
         ],
-        github: "https://github.com/FaizanPotrick/my-todos.git",
-        website: "https://faizanpotrick.github.io/my-todos/",
+        github: "https://github.com/FaizanPotrick/Handy-Notes.git",
+        website: "https://handynotes.netlify.app/",
       },
     ],
   }),
