@@ -56,7 +56,7 @@ export default defineStore({
       },
       {
         title: "Handy Notes",
-        description: "Handy Notes App",
+        description: "Notes App",
         src: HandyNotes,
         technology: [
           { alt: "ReactJS", src: React },
