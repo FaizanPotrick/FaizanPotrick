@@ -5,7 +5,7 @@
 🔭 Portfolio : <a href="https://faizanpotrick.netlify.app/">Faizan Potrick</a><br/>
 👨‍💻 I’m looking to collaborate on Web Dev Projects<br/>
 📫 How to reach me out **faizan.potrick02@gmail.com**<br/>
-⚡ Fun fact I am an Wolf!<br/>
+⚡ Fun fact I am a Wolf!<br/>
 
 <br/>
 
