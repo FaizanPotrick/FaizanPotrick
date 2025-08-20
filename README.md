@@ -1,20 +1,14 @@
-<h1 align="center">Hi 👋, I'm Faizan Potrick</h1>
-<h3 align="center">Student | Programmer | Developer</h3>
+<h1 align="center">Hi 👋, I'm Faizan Potrick, a Software Engineer</h1>
 
-- 🌱 I’m currently doing **DSA**
-- 🔭 Portfolio : [Faizan Potrick](https://faizanpotrick.netlify.app/)
-- 📄 Know about my experiences [here](https://drive.google.com/file/d/1N-5BwaH4PLk9R0RvZLyKaF-IzZuoWeFg/view?usp=sharing)
-- 📫 Feel free to reach me out **faizan.potrick02@gmail.com**
-- 🤝 Ping me if you are looking to team up for a cool hackathon
-
-<h3 align="center">Connect with me</h3>
-<div align="center">
+<h3>Connect with me</h3>
+<div>
+  <a href="mailto:faizan.potrick02@gmail.com" target="blank"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="mail" height="40" width="40"/></a>
   <a href="https://linkedin.com/in/faizan-potrick" target="blank"><img src="https://user-images.githubusercontent.com/89718255/198182313-7e81eb3a-dcea-4bc6-bf70-e578b95e30b7.png" alt="faizan-potrick" height="40" width="40"/>
   <a href="https://instagram.com/faizan_potrick" target="blank"><img src="https://user-images.githubusercontent.com/89718255/198182653-b64bed54-a9db-4aee-91e4-87ccd2bab576.png" alt="faizan_potrick" height="40" width="40"/>
 </div>
 
-<h3 align="center">Languages and Tools</h3>
-<div align="center">
+<h3>Languages and Tools</h3>
+<div>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
@@ -35,6 +29,6 @@
 </div>
 <br/>
 <br/>
-<div align="center">
-  <img align="center" margin="2px" src="https://github-readme-stats.vercel.app/api/top-langs?username=FaizanPotrick&show_icons=true&locale=en&layout=compact" alt="FaizanPotrick"/>
+<div>
+  <img margin="2px" src="https://github-readme-stats.vercel.app/api/top-langs?username=FaizanPotrick&show_icons=true&locale=en&layout=compact" alt="FaizanPotrick"/>
 </div>
